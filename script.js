@@ -2,7 +2,7 @@ let count = 0;
 const countEl = document.getElementById("count");
 
 document.getElementById("add").onclick = function () {
-  count++;
+  count+=2;
   countEl.textContent = count;
 };
 
