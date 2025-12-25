@@ -10,3 +10,8 @@ document.getElementById("reset").onclick = function () {
   count = 0;
   countEl.textContent = count;
 };
+
+document.getElementById("minus").onclick = function () {
+  count--;
+  countEl.textContent = count;
+};
