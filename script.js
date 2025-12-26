@@ -15,3 +15,8 @@ document.getElementById("minus").onclick = function () {
   count--;
   countEl.textContent = count;
 };
+
+document.getElementById("theme").onclick = function () {
+  document.body.style.background = "#222";
+  document.body.style.color = "#fff";
+};
